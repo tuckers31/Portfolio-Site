@@ -113,7 +113,7 @@ a {
 
 .title-proj {
     width: 100%;
-    height: 1.75rem;
+    height: 3rem;
 }
 
 .title-proj h2 {
@@ -158,4 +158,31 @@ a {
     justify-content: center;
     align-items: center;
     border-top: 1px solid black;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1080px) {
+    * {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .projects {
+        height: 60rem;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .proj-list {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    * {
+        font-size: 8px;
+    }
 }
