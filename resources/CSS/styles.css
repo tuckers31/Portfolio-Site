@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+section {
+    margin-bottom: 5rem;
+}
+
 /* Banner */
 header {
     width: 100%;
@@ -51,7 +55,7 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.5625rem 7rem;
+    padding: 1.875rem 7rem;
 }
 
 .about-me-text {
@@ -72,7 +76,7 @@ a {
 
 .am-container h2 {
     font-family: Rubik;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.75rem;
 
 }
@@ -85,4 +89,62 @@ a {
 
 .description p {
     font-size: 1.5rem;
+}
+
+/* Projects Section */
+.projects {
+    margin-top: 9.625rem;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 0rem 5.25rem;
+}
+
+.bg-proj {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(175, 168, 186, 0.6);
+    display: flex;
+    padding: 3rem 3rem;
+    flex-wrap: wrap;
+}
+
+.title-proj {
+    width: 100%;
+    height: 1.75rem;
+}
+
+.title-proj h2 {
+    font-family: Karla;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.proj-list {
+    width: 60%;
+}
+
+.proj-list li {
+    font-family: Karla;
+    font-weight: 500;
+    font-size: 1.875rem;
+    margin-bottom: .875rem;
+}
+
+.proj-list p {
+    font-family: Karla;
+    font-weight: 500;
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+}
+
+.img-container {
+    width: 40%;
+}
+
+.img-container img {
+    width: 100%;
+    padding-bottom: 1rem;
 }
