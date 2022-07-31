@@ -160,6 +160,20 @@ a {
     border-top: 1px solid black;
 }
 
+/* Interactive Button */
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button {
+    font-family: Karla;
+    font-size: 1.75rem;
+    padding: .5rem 1rem;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 1080px) {
     * {
