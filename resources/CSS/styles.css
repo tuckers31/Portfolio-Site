@@ -146,5 +146,16 @@ a {
 
 .img-container img {
     width: 100%;
-    padding-bottom: 1rem;
+    padding-top: 2.25rem;
+    padding-left: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
 }
